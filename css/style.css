@@ -1,0 +1,151 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.layout_padding {
+  padding: 75px 0;
+}
+
+.layout_padding-top {
+  padding-top: 75px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 75px;
+}
+
+/* Encabezado */
+.header_section {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  color: #fff;
+  padding: 0.5% 0;
+  height: auto;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  padding: 0 12px;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+.btn, .btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+/* Navbar */
+.custom_nav-container .navbar-toggler {
+  border-color: #fff;
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+}
+
+.custom_nav-container .nav_search-btn {
+  background-image: url(../images/search-icon.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position-y: 7px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+}
+
+.nav-link:hover {
+  color: #fefefe;
+}
+
+/* Logo */
+.logo_box {
+  width: 80px;
+}
+
+.logo_box img {
+  width: 100%;
+}
+
+.call_to_btn {
+  display: inline-block;
+  color: #fefefe;
+  padding: 10px 35px;
+  background-color: #f6bb08;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  border-radius: 0;
+}
+
+/* Slider Section */
+.slider_section {
+  height: auto;
+  min-height: 100vh; /* Asegura que el slider ocupe el 100% de la altura */
+  position: relative;
+}
+
+/* Eliminar indicadores de carrusel (puntos) */
+.slider_section .carousel-indicators {
+  display: none; /* Oculta los indicadores de puntos */
+}
+
+/* Carousel */
+.carousel-control-prev, .carousel-control-next {
+  display: none; /* Elimina los controles de anterior/siguiente */
+}
+
+.slider_section .slider_box {
+  display: flex;
+  height: auto;
+  min-height: 100vh;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center; /* Fija la imagen en el centro */
+  background-attachment: scroll; /* Asegura que la imagen no se mueva */
+}
+
+.slider_section .slider_box .slider-detail {
+  color: #fff;
+  width: 60%;
+  margin-top: 14%;
+  margin-left: 20%;
+  position: relative;
+  z-index: 2;
+}
+
+/* Footer */
+.footer_section {
+  width: 100%; /* Asegura que el pie de página ocupe todo el ancho */
+  background-color: #333; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 50px 0; /* Espaciado vertical */
+  position: relative; /* Para ajustar el contenido dentro del footer */
+  text-align: center; /* Asegura que el contenido esté centrado */
+}
+
+.footer_section .map-container {
+  width: 100%;
+  height: 400px; /* Ajusta la altura del mapa según lo necesites */
+  margin-bottom: 20px; /* Espacio debajo del mapa */
+}
+
+/* Información de contacto y copyright */
+.footer_section .contact-info {
+  font-size: 14px;
+}
+
+.footer_section .contact-info p {
+  margin: 5px 0; /* Espacio entre cada línea de texto */
+}
+
+.footer_section .copyright {
+  font-size: 12px;
+  margin-top: 10px; /* Espacio entre el contenido de contacto y el copyright */
+}
